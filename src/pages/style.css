@@ -10,11 +10,15 @@
       font-size: 40px;
   }
 .Container{  
-    background-color: #f1f1f1;;
+    background-image: url(bg.jpg);
+    /* Full height */
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .display-container > .display{
     display: inline-block;
-    box-shadow: 0 0 5px 5px rgb(0, 0, 0);
+    box-shadow: 0 0 5px 8px rgb(0, 0, 0);
     display: inline-block;
     height: 50%;
     width: 50%;
@@ -22,7 +26,8 @@
     margin-top: 30px;
     letter-spacing: 2px;
     font-size: 25px;
-    text-shadow:1.3px 1.3px grey ;
+    text-shadow:1.3px 1.4px grey ;
+    border-radius: 40px;
 
 }
 .title{
@@ -33,6 +38,8 @@
     width: 40%;
     height: 40px;
     box-shadow: 6px 0px 0px 0px grey;
+    border-radius: 20px;
+
 }
 .Button{
     height: 50px;
@@ -43,6 +50,7 @@
     letter-spacing: 1.5px;
     font-weight: bold;
     font-size: 18px;
+    border-radius: 15px;
     
 }
 .Button:hover{
